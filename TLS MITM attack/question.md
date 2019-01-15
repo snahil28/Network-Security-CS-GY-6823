@@ -1,4 +1,4 @@
-1.0 Objective
+## 1.0 Objective
 Transport Layer Security, TLS, is one of the world’s most important forms of commercial
 encryption. It is the public key system generally employed by e-commerce websites like
 Amazon in order to prevent payment details from being intercepted by third parties.
@@ -8,7 +8,8 @@ unsecured one. By acting as a man-in-the-middle, the attacker can compromise any
 information sent betwee
 PAGE 2 OF 5
 CS6823 - NETWORK SECURITY
-1.2 Lab Setup and Background
+
+## 1.2 Lab Setup and Background
 The VLAB architecture for this attack is depicted in the diagram below:
 The green box represents the VLAB environment that each student has an individual instance of.
 There is a gateway (router) that connects the student VLAN to a second VLAN in which resides
@@ -56,7 +57,8 @@ command on each to show that the IP-MAC association has been changed on each.
 NEWORK SECURITY 
 PAGE 4 OF 5
 CS6823 - NETWORK SECURITY
-2.1 SSLstrip Attack
+
+## 2.1 SSLstrip Attack
 SSLstrip can be found in the directory /usr/share/sslstrip. Run SSLstrip on the
 Kali machine. To do this use the command:
 sudo python sslstrip.py -l 8080
